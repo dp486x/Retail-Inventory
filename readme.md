@@ -11,7 +11,13 @@ This application is mainly useful for maintaining the inventory with some basic 
 <li>Editing the existing product information in the inventory and</li>
 <li>Removing the existing products from the Inventory</li>
 </ul>
-
+<div></div>
+<h2>Aplication Usage</h2>
+<div>
+<p>
+\t Download or clone the application, go to command prompt until the <pre>package.json</pre> level. 
+</p>
+</div>
 </div>
 </body>
 </html>
