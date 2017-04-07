@@ -38,8 +38,10 @@ This application was Developed using MEAN stack.
 </ul>
    Used MongoDB for data layer which holds the products and their information, NodeJS and ExpressJS for Service layer which is used to serve the requests from the client and used AngularJS for Presentation layer.
    NPM(Node Package Manager) is used to maintain the dependencies for the application. In the application the dependencies required for integrating mongoDB to NodeJS and Supporting Node Server are Express, Drivers for Mongodb(mongodb, mongoskin), body-parser.
-   
-
-</p></div>
+</p>
+<p>
+This application was pushed to BlueMix and can be accessed at<a href="https://retailinventory-unspeculatory-btry.mybluemix.net/#/">Retail Inventory</a>
+</p>
+</div>
 </body>
 </html>
