@@ -15,7 +15,12 @@ This application is mainly useful for maintaining the inventory with some basic 
 <h2>Aplication Usage</h2>
 <div>
 <p>
-\t Download or clone the application, go to command prompt until the <pre>package.json</pre> level. 
+  Before starting the application you need to install the following softwares.
+  <ol>
+  <li>Node JS</li>
+  <li>mongoDB<li>
+  </ol>
+   Download or clone the application, go to command prompt until the <em>package.json<em> level and do npm install which allows you to download all the dependencies. 
 </p>
 </div>
 </div>
