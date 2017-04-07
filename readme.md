@@ -25,7 +25,16 @@ This application is mainly useful for maintaining the inventory with some basic 
    Open your browser and navigate to "http://localhost:4000". This is where you see the application.
 </p>
 </div>
-<div></div>
+<div>
 </div>
+<h2>Application Development</h2>
+<div><p>
+This application was Developed using MEAN stack.
+<ul>
+<li><strong>M</strong>ongoDB<li/><li><strong>E</strong>xpressJS<li/><li><strong>A</strong>ngularJS<li/><li><strong>N</strong>odejs<li/>
+</ul>
+
+
+</p></div>
 </body>
 </html>
