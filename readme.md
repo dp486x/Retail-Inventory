@@ -31,7 +31,10 @@ This application is mainly useful for maintaining the inventory with some basic 
 <div><p>
 This application was Developed using MEAN stack.
 <ul>
-<li><strong>M</strong>ongoDB<li/><li><strong>E</strong>xpressJS<li/><li><strong>A</strong>ngularJS<li/><li><strong>N</strong>odejs<li/>
+<li><strong>M</strong>ongoDB<li/>
+<li><strong>E</strong>xpressJS<li/>
+<li><strong>A</strong>ngularJS<li/>
+<li><strong>N</strong>odejs<li/>
 </ul>
 
 
