@@ -1,0 +1,5 @@
+---
+applications:
+ - name: retailinventory
+   random-route: true
+   memory: 256M

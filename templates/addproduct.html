@@ -1,0 +1,30 @@
+<h2>Add new Product</h2><hr>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well well-sm">
+            <form>
+                <div class="form-group">
+                    <label for="producttype">Product Type: </label>
+                    <input type="text" class="form-control" ng-model="productdata.producttype" placeholder="Enter Product Type" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="productbrand">Product Brand: </label>
+                    <input type="text" class="form-control" ng-model="productdata.productbrand" placeholder="Enter Product Brand" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="productname">Product Name: </label>
+                    <input type="text" class="form-control" ng-model="productdata.productname" placeholder="Product Name" required>                
+                </div><br>
+                <div class="form-group">
+                    <label for="productprice">Product Price: </label>
+                    <span class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" class="form-control" ng-model="productdata.productprice" placeholder="Enter Product Price" required>
+                    </span>
+                </div><br>
+                <button type="submit" class="btn btn-success" ng-click="addProduct()"><span class="glyphicon glyphicon-save"></span> Save Product</button>
+                <a href="#/" class="pull-right"><span class="glyphicon glyphicon-menu-left"></span> Return to product list</a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<h2>Edit Product Data</h2><hr>
+<div class="row" ng-init="opnUpdateProduct()">
+    <div class="col-md-6">
+        <div class="well well-sm">
+            <form>
+                <div class="form-group">
+                    <label for="Product Type">Product Type: </label>
+                    <input type="text" class="form-control" ng-model="updprod.type" placeholder="Enter Product type" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="Product Brand">Product Brand: </label>
+                    <input type="text" class="form-control" ng-model="updprod.Brand" placeholder="Enter Product Brand" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="Product Name">Product Name: </label>
+                    <input type="text" class="form-control" ng-model="updprod.Name" placeholder="Enter Product Name" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="Product Price">Product Price: </label>
+                    <span class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" class="form-control" ng-model="updprod.price" placeholder="Enter Product Price" required></span>
+                </div><br>
+                
+                
+                <a href="#/" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span> Cancel updating</a>
+                <button type="submit" class="btn btn-success" ng-click="updateProduct()"><span class="glyphicon glyphicon-ok"></span> Update Product</button>
+
+            </form>
+        </div>
+    </div>
+</div>
