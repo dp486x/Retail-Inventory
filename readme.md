@@ -40,7 +40,7 @@ This application was Developed using MEAN stack.
    NPM(Node Package Manager) is used to maintain the dependencies for the application. In the application the dependencies required for integrating mongoDB to NodeJS and Supporting Node Server are Express, Drivers for Mongodb(mongodb, mongoskin), body-parser.
 </p>
 <p>
-This application was pushed to BlueMix and can be accessed at<a href="https://retailinventory-unspeculatory-btry.mybluemix.net/#/">Retail Inventory</a>
+This application was pushed to BlueMix and can be accessed at <a href="https://retailinventory-unspeculatory-btry.mybluemix.net/#/">Retail Inventory</a>
 </p>
 </div>
 </body>
