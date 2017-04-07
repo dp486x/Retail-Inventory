@@ -11,6 +11,7 @@ This application is mainly useful for maintaining the inventory with some basic 
 <li>Editing the existing product information in the inventory and</li>
 <li>Removing the existing products from the Inventory</li>
 </ul>
+
 </div>
 </body>
 </html>
