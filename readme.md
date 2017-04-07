@@ -20,11 +20,12 @@ This application is mainly useful for maintaining the inventory with some basic 
   <li>Node JS</li>
   <li>mongoDB</li>
   </ol>
-   Download or clone the application, go to command prompt until the <em>package.json<em> level and do npm install which allows you to download all the dependencies. 
-   Launch the mongod by following the instrucions provided in the mongoDB website, and in the command prompt at server.js level and do <ins>node server.js</ins> which will start the application and connects with the database.
+   Download or clone the application, go to command prompt until the <em>package.json</em> level and do npm install which allows you to download all the dependencies. 
+   Launch the mongod by following the instrucions provided in the mongoDB website, and in the command prompt at server.js level and do "<ins>node server.js</ins>" which will start the application and connects with the database.
    Open your browser and navigate to "http://localhost:4000". This is where you see the application.
 </p>
 </div>
+<div></div>
 </div>
 </body>
 </html>
