@@ -21,7 +21,7 @@ This application is mainly useful for maintaining the inventory with some basic 
   <li>mongoDB</li>
   </ol>
    Download or clone the application, go to command prompt until the <em>package.json</em> level and do <pre>$ npm install</pre> which allows you to download all the dependencies. 
-   Launch the mongod by following the instrucions provided in the mongoDB website, and in the command prompt at server.js level and do "<pre>$ node server.js</pre>" which will start the application and connects with the database.
+   Launch the mongod by following the instrucions provided in the mongoDB website, and in the command prompt at server.js level and do <pre>$ node server.js</pre> which will start the application and connects with the database.
    Open your browser and navigate to "http://localhost:4000". This is where you see the application.
 </p>
 </div>
@@ -36,7 +36,9 @@ This application was Developed using MEAN stack.
 <li><strong>A</strong>ngularJS</li>
 <li><strong>N</strong>odejs</li>
 </ul>
-
+   Used MongoDB for data layer which holds the products and their information, NodeJS and ExpressJS for Service layer which is used to serve the requests from the client and used AngularJS for Presentation layer.
+   NPM(Node Package Manager) is used to maintain the dependencies for the application. In the application the dependencies required for integrating mongoDB to NodeJS and Supporting Node Server are Express, Drivers for Mongodb(mongodb, mongoskin), body-parser.
+   
 
 </p></div>
 </body>
