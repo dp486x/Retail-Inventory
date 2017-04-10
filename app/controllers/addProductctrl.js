@@ -11,14 +11,14 @@ app.controller('add-new-product',function($scope,$http){
             "productprice":$scope.productdata.productprice
         };
 		 
-		// console.log("payload in add product function:"+data);
+		console.log("payload in add product function:"+data);
 
-		$http.post("http://localhost:4000/product",data).then(function(response){
+		$http.post("/product",data).then(function(response){
      	   if(response.data.error == 0){
-    	        // console.log("successfully added the product");
+    	        console.log("successfully added the product");
     	        window.location.href = '/';
      	   }else{
-                
+                console.log("failed adding the product");
      	   }
    		});
    		$scope.productdata = {};
